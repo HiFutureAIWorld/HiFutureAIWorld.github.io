@@ -50,7 +50,6 @@ jobs:
       - name: 生成静态文件
         run: |
           hexo clean
-          hexo bangumi -u #bilibili番剧更新
           hexo generate
 
       - name: 部署到Github
@@ -59,5 +58,3 @@ jobs:
           token: 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
           repository-name: HiFutureAIWorld.github.io.git
           branch: main
-          folder: public
-          commit-message: "${{ github.event.head_commit.message }} 由Github操作更新"
