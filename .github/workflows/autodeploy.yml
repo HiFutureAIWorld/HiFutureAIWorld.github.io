@@ -58,3 +58,5 @@ jobs:
           token: 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
           repository-name: HiFutureAIWorld.github.io.git
           branch: main
+          folder: public
+          commit-message: "${{ github.event.head_commit.message }} 由Github操作更新"
