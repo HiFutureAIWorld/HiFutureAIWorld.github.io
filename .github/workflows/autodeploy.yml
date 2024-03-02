@@ -59,4 +59,4 @@ jobs:
           repository-name: HiFutureAIWorld/HiFutureAIWorld.github.io
           branch: main
           folder: public
-          commit-message: "${{ github.event.head_commit.message }} 由Github操作更新"
+          commit-message: "${{ github.event.head_commit.message }} 由Github操作更新123"
